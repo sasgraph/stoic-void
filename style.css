@@ -45,20 +45,27 @@ button:hover {
     background-color: #1f2a30;
 }
 
+
 card-container {
-    display: flex;
+    display: flex auto;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+    gap: 16px; 
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
 }
+
 /* Card Styling */
 .card {
     background: white;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-    width: calc(33% - 40px);
+    margin: 16px;
+    padding: 24px;
+    width:auto;
+    height:auto
 }
 .card img {
     max-width: 100%;
@@ -70,3 +77,14 @@ card-container {
 .card p {
     color: #666;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: stretch;
+}
+
+.column {
+    flex: 3;}
