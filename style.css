@@ -47,7 +47,8 @@ button:hover {
 
 
 card-container {
-    display: flex auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     align-items: stretch;
     width: 100%;
     height: auto;
@@ -69,7 +70,7 @@ card-container {
 }
 .card img {
     max-width: 100%;
-    border-radius: 5px;
+    display:block;
 }
 .card h3 {
     margin: 10px 0;
@@ -82,9 +83,29 @@ card-container {
     flex-wrap: wrap;
     gap: 16px;
     justify-content: space-around;
-    margin-top: 40px;
+    margin-top: 16px;
     align-items: stretch;
 }
 
 .column {
     flex: 3;}
+
+.masonry { 
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -8px; /* Adjustment for the gutter */
+  width: 100%;
+}
+
+.masonry-brick {
+  flex: auto;
+  height: 250px;
+  min-width: 150px;
+  margin: 0 8px 8px 0; /* Some gutter */
+}
+.masonry-brick img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+x
