@@ -6,12 +6,20 @@
 }
 
 /* Body Styling */
+
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    padding: 20px;
+    padding: 32px;
 }
 
 /* Header Styling */
