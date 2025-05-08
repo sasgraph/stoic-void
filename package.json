@@ -1,0 +1,23 @@
+{
+  "name": "git-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "feature2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasgraph/stoic-void.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasgraph/stoic-void/issues"
+  },
+  "homepage": "https://github.com/sasgraph/stoic-void#readme",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  }
+}
