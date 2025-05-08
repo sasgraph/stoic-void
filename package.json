@@ -4,7 +4,8 @@
   "description": "",
   "main": "feature2.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx @tailwindcss/cli -i ./src/input.css -o ./git-two/styles.css --watch"
   },
   "repository": {
     "type": "git",
